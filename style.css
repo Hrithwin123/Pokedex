@@ -1,0 +1,89 @@
+*{
+    margin:0;
+
+}
+
+body{
+    background-image:url("pokemon.jfif");
+    background-size:1250px;
+    background-position-y:-70px;
+    background-position-x:20px;
+
+    
+}
+
+.container{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.pokedex{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:rgba(200, 0, 0, 0.747);
+    height:500px;
+    width:300px;
+    border:3px solid black;
+    border-radius:5px;
+}
+
+.heading{
+    font-family:sans-serif;
+    margin-top:5px;
+    font-size:14px;
+    font-weight:bold;
+    text-align:center;
+    border:none;
+    background-color:rgb(255, 255, 255);
+
+    
+}
+.button{
+    background-color:rgb(255, 153, 0);
+    color:white;
+    border:none;
+
+}
+.button:hover{
+    background-color:rgb(212, 127, 0);
+    border:1px solid;
+    border-radius:2px;
+
+}
+.screen-container{
+    display:flex;
+    justify-content:center;
+    background-color:rgb(0, 247, 255);
+    height:200px;
+    width:250px;
+    border:3px solid black;
+    border-radius:5px;
+    margin-top:10px;
+    
+}
+.screen{
+    height:200px;
+    width:200px;
+}
+
+.content{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    background-color:rgb(255, 255, 255);
+    height:200px;
+    width:250px;
+    border:3px solid black;
+    border-radius:5px;
+    margin-top:20px;
+
+}
+.data{
+    display:flex;
+    justify-content:space-around;
+
+}
